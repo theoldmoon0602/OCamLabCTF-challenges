@@ -1,0 +1,73 @@
+challenges:
+  eyes:
+    category: "common sense"
+    flag: OCamLabCTF{0p3n_y0ur_3y3s_and_1d3nt1fy_1t_1s_r0t13}
+    description: "let's see it"
+    author: theoldmoon0602
+    testers: []
+    difficulty: easy
+    base_score: 1000
+    completed: true
+  encoded:
+    category: "common sense"
+    flag: OCamlLabCTF{bas364_3nc0d1ng_t0_mak3_data_pr1ntabl3}
+    description: "sometimes data is encoded to various format"
+    author: theoldmoon0602
+    testers: []
+    difficulty: easy
+    base_score: 1000
+    completed: true
+  flagnumber:
+    category: "common sense"
+    flag: OCamlabCTF{str1ng_t0_1nt_c0nv3rs10n_1s_us3ful_f0r_crypt0graphy}
+    description: "this number implies the flag"
+    author: theoldmoon0602
+    testers: []
+    difficulty: easy
+    base_score: 1000
+    completed: true
+  "Weak Login":
+    category: web
+    flag: OCamLabCTF{sql_1nj3ct10n_1s_fun}
+    description: '<a href="http://{{host}}:8001/" target="_blank">http://{{host}}:8001/</a>'
+    author: theoldmoon0602
+    testers: []
+    difficulty: easy
+    base_score: 1000
+    completed: true
+  "Login to Live":
+    category: web
+    flag: "OCamLabCTF{T0K1M3K1_d0k0m4d3m0_3sc4l4t3!!}"
+    description: '<a href="http://{{host}}:8002/" target="_blank">http://{{host}}:8002/</a>'
+    author: theoldmoon0602
+    testers: []
+    difficulty: easy
+    base_score: 1000
+    completed: true
+  "Weak Crackme":
+    category: reversing
+    flag: "OCamLabCTF{str1ngs_1s_us3ful_t00l_4lw4ys}"
+    description: Crackme Challenge is to get the correct input for the given binary
+    author: theoldmoon0602
+    testers: []
+    difficulty: easy
+    base_score: 1000
+    completed: true
+  RSA:
+    category: crypto
+    flag: OCamLabCTF{R1v3st-Sh4m1r-Adl3m4n}
+    description: |
+      <pre><code>
+      p = 104209431158949936402108500402271793045579807456147152224617503958610815865360406026909720891759880964456019955626625800073582972952502829573072093855726415205846918946554591160350490889154150513446260977347790964277519845361905889050313423234014564026286390834362237035513527610760163065614641836814793353647
+      q = 143829822477093021663840163922351592752048622304801481151138738362786914245391035487502863740174352651831373129866078288419285370532296353990975962961376521046248980709857283190902556563095320013559087965783582549393617516970200001311116498318947210509799871613268795859166110823785491913051735894387012178007
+      e = 65537
+      c = 4551485166501576299521441344649219138163467334920944096138199665870424992071756242843371846904346059346674511509868926674426577778237087292519425914081176405465861773458961740472721930150871063947387241468750105776261084854691663828459703558621686297723577447846838552093392387284440615935464481536356004555919252085955246750656039597408118065386109287671572245646733683897050012964729252662021736051623887067721477398400497980795003552598914575102542815089889196398823732783634888925883714442767275331029269529896335191304794529520890886686880859418215346710702772795003556639320435818978485192240805003521861839622
+      <code></pre>
+    author: theoldmoon0602
+    testers: []
+    difficulty: easy
+    base_score: 1000
+    completed: true
+
+
+
