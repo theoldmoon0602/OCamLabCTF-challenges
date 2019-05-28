@@ -29,21 +29,23 @@ challenges:
   "Weak Login":
     category: web
     flag: OCamLabCTF{sql_1nj3ct10n_1s_fun}
-    description: '<a href="http://{{host}}:8001/" target="_blank">http://{{host}}:8001/</a>'
+    description: '<a href="http://{{host}}:{{port}}/" target="_blank">http://{{host}}:{{port}}/</a>'
     author: theoldmoon0602
     testers: []
     difficulty: easy
     base_score: 1000
     completed: true
+    port: 8001
   "SSSS":
     category: web
     flag: "OCamLabCTF{w4k3_up_s0m30n3_1s_1nv4d1ng_0ur_w0rld}"
-    description: '<a href="http://{{host}}:8002/" target="_blank">http://{{host}}:8002/</a>'
+    description: '<a href="http://{{host}}:{{port}}/" target="_blank">http://{{host}}:{{port}}/</a>'
     author: theoldmoon0602
     testers: []
     difficulty: easy
     base_score: 1000
     completed: true
+    port: 8002
   "Weak Crackme":
     category: reversing
     flag: "OCamLabCTF{str1ngs_1s_us3ful_t00l_4lw4ys}"
