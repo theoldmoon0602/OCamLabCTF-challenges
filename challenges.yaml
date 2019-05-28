@@ -35,9 +35,9 @@ challenges:
     difficulty: easy
     base_score: 1000
     completed: true
-  "Login to Live":
+  "SSSS":
     category: web
-    flag: "OCamLabCTF{T0K1M3K1_d0k0m4d3m0_3sc4l4t3!!}"
+    flag: "OCamLabCTF{w4k3_up_s0m30n3_1s_1nv4d1ng_0ur_w0rld}"
     description: '<a href="http://{{host}}:8002/" target="_blank">http://{{host}}:8002/</a>'
     author: theoldmoon0602
     testers: []

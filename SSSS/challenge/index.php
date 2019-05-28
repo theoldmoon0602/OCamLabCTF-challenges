@@ -6,13 +6,13 @@ if (isset($_GET['source'])) {
 if (isset($_POST['username']) && isset($_POST['password'])) {
     $pdo = new PDO("sqlite::memory:");
     $pdo->exec('create table users(username text, password text);');
-    $pdo->exec('insert into users(username, password) values ("sibling", "chocolate");');
-    $pdo->exec('insert into users(username, password) values ("uduki", "namahamu-melon");');
-    $pdo->exec('insert into users(username, password) values ("mio", "fried-chicken");');
+    $pdo->exec('insert into users(username, password) values ("akane", "sinjo");');
+    $pdo->exec('insert into users(username, password) values ("yuta", "hibiki");');
+    $pdo->exec('insert into users(username, password) values ("rikka", "takarada");');
 
     $rows = $pdo->query("select username from users where username='${_POST['username']}' and password='${_POST['password']}'");
     foreach ($rows as $row) {
-        if ($row[0] === "mika") {
+        if ($row[0] === "o-ishi") {
             exit(include "flag.php");
         }
         exit("Hello, ${row[0]}");
@@ -24,7 +24,7 @@ if (isset($_POST['username']) && isset($_POST['password'])) {
 <html lang="jp">
 <head>
     <meta charset="UTF-8">
-    <title>Login to Live</title>
+    <title>SSSS</title>
     <style>
 html,body,.container {
     height: 100%;
