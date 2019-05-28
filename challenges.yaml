@@ -2,7 +2,7 @@ challenges:
   eyes:
     category: "common sense"
     flag: OCamLabCTF{0p3n_y0ur_3y3s_and_1d3nt1fy_1t_1s_r0t13}
-    description: "let's see it"
+    description: "BPnzYnoPGS{0c3a_l0he_3l3f_naq_1q3ag1sl_1g_1f_e0g13}"
     author: theoldmoon0602
     testers: []
     difficulty: easy
@@ -10,8 +10,8 @@ challenges:
     completed: true
   encoded:
     category: "common sense"
-    flag: OCamlLabCTF{bas364_3nc0d1ng_t0_mak3_data_pr1ntabl3}
-    description: "sometimes data is encoded to various format"
+    flag: OCamlLabCTF{base64_3nc0d1ng_t0_mak3_data_pr1ntabl3}
+    description: "eJzzd07MzfFJTHIOcatOSixONTOJN85LNkgxzEuPLzGIz03MNo5PSSxJjC8oMswrSUzKMa7lAgDgoBI6"
     author: theoldmoon0602
     testers: []
     difficulty: easy
@@ -20,7 +20,8 @@ challenges:
   flagnumber:
     category: "common sense"
     flag: OCamlabCTF{str1ng_t0_1nt_c0nv3rs10n_1s_us3ful_f0r_crypt0graphy}
-    description: "this number implies the flag"
+    description: |
+      <pre><code>16216214501576204337606159400362314507995824143372477954355299239403986355799559215781914052337612483094351816110109967656851305182966739571504811899261</pre></code>
     author: theoldmoon0602
     testers: []
     difficulty: easy
