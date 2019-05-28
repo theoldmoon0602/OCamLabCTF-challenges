@@ -20,10 +20,10 @@ if (isset($_POST['username']) && isset($_POST['password'])) {
     <meta charset="UTF-8">
     <title>Weak Login</title>
     <style>
-html,body {
+html,body,.container {
     height: 100%;
 }
-body {
+.container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -53,10 +53,12 @@ input[type=submit]:active {
     </style>
 </head>
 <body>
-    <form method="POST">
-        username: <input type="text" name="username" autofocus><br/>
-        password: <input type="password" name="password"><br/>
-        <input type="submit" value="Login">
-    </form>
+    <div class="container">
+        <form method="POST">
+            username: <input type="text" name="username" autofocus><br/>
+            password: <input type="password" name="password"><br/>
+            <input type="submit" value="Login">
+        </form>
+    </div>
 </body>
 </html>
