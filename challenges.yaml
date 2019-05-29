@@ -2,7 +2,7 @@ challenges:
   eyes:
     category: "common sense"
     flag: OCamLabCTF{0p3n_y0ur_3y3s_and_1d3nt1fy_1t_1s_r0t13}
-    description: "let's see it"
+    description: "BPnzYnoPGS{0c3a_l0he_3l3f_naq_1q3ag1sl_1g_1f_e0g13}"
     author: theoldmoon0602
     testers: []
     difficulty: easy
@@ -10,8 +10,8 @@ challenges:
     completed: true
   encoded:
     category: "common sense"
-    flag: OCamlLabCTF{bas364_3nc0d1ng_t0_mak3_data_pr1ntabl3}
-    description: "sometimes data is encoded to various format"
+    flag: OCamlLabCTF{base64_3nc0d1ng_t0_mak3_data_pr1ntabl3}
+    description: "eJzzd07MzfFJTHIOcatOSixONTOJN85LNkgxzEuPLzGIz03MNo5PSSxJjC8oMswrSUzKMa7lAgDgoBI6"
     author: theoldmoon0602
     testers: []
     difficulty: easy
@@ -20,7 +20,8 @@ challenges:
   flagnumber:
     category: "common sense"
     flag: OCamlabCTF{str1ng_t0_1nt_c0nv3rs10n_1s_us3ful_f0r_crypt0graphy}
-    description: "this number implies the flag"
+    description: |
+      <pre><code>16216214501576204337606159400362314507995824143372477954355299239403986355799559215781914052337612483094351816110109967656851305182966739571504811899261</pre></code>
     author: theoldmoon0602
     testers: []
     difficulty: easy
@@ -29,21 +30,23 @@ challenges:
   "Weak Login":
     category: web
     flag: OCamLabCTF{sql_1nj3ct10n_1s_fun}
-    description: '<a href="http://{{host}}:8001/" target="_blank">http://{{host}}:8001/</a>'
+    description: '<a href="http://{{host}}:{{port}}/" target="_blank">http://{{host}}:{{port}}/</a>'
     author: theoldmoon0602
     testers: []
     difficulty: easy
     base_score: 1000
     completed: true
-  "Login to Live":
+    port: 8001
+  "SSSS":
     category: web
-    flag: "OCamLabCTF{T0K1M3K1_d0k0m4d3m0_3sc4l4t3!!}"
-    description: '<a href="http://{{host}}:8002/" target="_blank">http://{{host}}:8002/</a>'
+    flag: "OCamLabCTF{w4k3_up_s0m30n3_1s_1nv4d1ng_0ur_w0rld}"
+    description: '<a href="http://{{host}}:{{port}}/" target="_blank">http://{{host}}:{{port}}/</a>'
     author: theoldmoon0602
     testers: []
     difficulty: easy
     base_score: 1000
     completed: true
+    port: 8002
   "Weak Crackme":
     category: reversing
     flag: "OCamLabCTF{str1ngs_1s_us3ful_t00l_4lw4ys}"

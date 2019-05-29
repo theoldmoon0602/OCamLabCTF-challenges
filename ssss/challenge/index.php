@@ -6,13 +6,13 @@ if (isset($_GET['source'])) {
 if (isset($_POST['username']) && isset($_POST['password'])) {
     $pdo = new PDO("sqlite::memory:");
     $pdo->exec('create table users(username text, password text);');
-    $pdo->exec('insert into users(username, password) values ("sibling", "chocolate");');
-    $pdo->exec('insert into users(username, password) values ("uduki", "namahamu-melon");');
-    $pdo->exec('insert into users(username, password) values ("mio", "fried-chicken");');
+    $pdo->exec('insert into users(username, password) values ("akane", "sinjo");');
+    $pdo->exec('insert into users(username, password) values ("yuta", "hibiki");');
+    $pdo->exec('insert into users(username, password) values ("rikka", "takarada");');
 
     $rows = $pdo->query("select username from users where username='${_POST['username']}' and password='${_POST['password']}'");
     foreach ($rows as $row) {
-        if ($row[0] === "mika") {
+        if ($row[0] === "o-ishi") {
             exit(include "flag.php");
         }
         exit("Hello, ${row[0]}");
@@ -24,12 +24,12 @@ if (isset($_POST['username']) && isset($_POST['password'])) {
 <html lang="jp">
 <head>
     <meta charset="UTF-8">
-    <title>Login to Live</title>
+    <title>SSSS</title>
     <style>
-html,body {
+html,body,.container {
     height: 100%;
 }
-body {
+.container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -59,11 +59,13 @@ input[type=submit]:active {
     </style>
 </head>
 <body>
-    <form method="POST">
-        <a href="?source">source</a><br/>
-        username: <input type="text" name="username" autofocus><br/>
-        password: <input type="password" name="password"><br/>
-        <input type="submit" value="Login">
-    </form>
+    <div class="container">
+        <form method="POST">
+            <a href="?source">source</a><br/>
+            username: <input type="text" name="username" autofocus><br/>
+            password: <input type="password" name="password"><br/>
+            <input type="submit" value="Login">
+        </form>
+    </div>
 </body>
 </html>
