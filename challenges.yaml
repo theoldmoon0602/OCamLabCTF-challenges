@@ -47,6 +47,16 @@ challenges:
     base_score: 1000
     completed: true
     port: 8002
+  "Online Editor":
+    category: web
+    flag: "OCamLabCTF{PHP_str34m_wr4pp3rs_4r3_us3ful}"
+    description: '<a href="http://{{host}}:{{port}}/" target="_blank">http://{{host}}:{{port}}/</a>'
+    author: theoldmoon0602
+    testers: []
+    difficulty: easy
+    base_score: 1000
+    completed: true
+    port: 8003
   "Weak Crackme":
     category: reversing
     flag: "OCamLabCTF{str1ngs_1s_us3ful_t00l_4lw4ys}"
