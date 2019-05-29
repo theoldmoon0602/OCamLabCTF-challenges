@@ -57,6 +57,16 @@ challenges:
     base_score: 1000
     completed: true
     port: 8003
+  "SQLi to":
+    category: web
+    flag: "OCamLabCTF{sm4ll_sqli_l34ds_4_bi9_s3cur1ty_issu3}"
+    description: '<a href="http://{{host}}:{{port}}/" target="_blank">http://{{host}}:{{port}}/</a>'
+    author: theoldmoon0602
+    testers: []
+    difficulty: medium
+    base_score: 1000
+    completed: true
+    port: 8004
   "Weak Crackme":
     category: reversing
     flag: "OCamLabCTF{str1ngs_1s_us3ful_t00l_4lw4ys}"
