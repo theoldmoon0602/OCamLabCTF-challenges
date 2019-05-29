@@ -53,6 +53,15 @@ challenges:
     difficulty: easy
     base_score: 1000
     completed: true
+  "One Time Two Time":
+    category: crypto
+    flag: "OCamLabCTF{0n3_t1m3_p4d_4nd_kn0wn_pl41nt3xt_1s_typ1c4l}"
+    description: One time pad is perfectly unsolvable.
+    author: theoldmoon0602
+    testers: []
+    difficulty: easy
+    base_score: 1000
+    completed: true
   RSA:
     category: crypto
     flag: OCamLabCTF{R1v3st-Sh4m1r-Adl3m4n}
