@@ -61,8 +61,8 @@ input[type=submit]:active {
 </head>
 <body>
     <div class="container">
-        <p><a href="?source">view source</a></p>
         <form method="POST">
+            <a href="?source">source</a><br/>
             username: <input type="text" name="username" autofocus><br/>
             password: <input type="password" name="password"><br/>
             <input type="submit" value="Login">
