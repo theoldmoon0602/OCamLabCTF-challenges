@@ -1,0 +1,13 @@
+.container {
+  width: 800px;
+  margin: 0 auto;
+}
+form {
+  font-family: monospace;
+  font-size: 120%;
+}
+input[type=text],input[type=password] {
+  border: none;
+  border-bottom: 1px solid #000;
+  text-align: center;
+}
