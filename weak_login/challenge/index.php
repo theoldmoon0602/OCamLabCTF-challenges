@@ -1,13 +1,20 @@
 <?php
+
+$secrets = include('secret.php');
+
+if (isset($_GET['source'])) {
+    highlight_file(__FILE__);
+    exit;
+}
 if (isset($_POST['username']) && isset($_POST['password'])) {
     $pdo = new PDO("sqlite::memory:");
     $pdo->exec('create table users(username text, password text);');
-    $pdo->exec('insert into users(username, password) values ("admin", "admin_verysecret_password");');
+    $pdo->exec('insert into users(username, password) values ("admin", "' .  $secrets['password'] .  '"');
 
     $rows = $pdo->query("select username from users where username='${_POST['username']}' and password='${_POST['password']}'");
     foreach ($rows as $row) {
         if ($row[0] === "admin") {
-            exit("OCamLabCTF{sql_1nj3ct10n_1s_fun}");
+            exit($secrets['flag']);
         }
         exit("Hello, ${row[0]}");
     }
@@ -54,6 +61,7 @@ input[type=submit]:active {
 </head>
 <body>
     <div class="container">
+        <p><a href="?source">view source</a></p>
         <form method="POST">
             username: <input type="text" name="username" autofocus><br/>
             password: <input type="password" name="password"><br/>
