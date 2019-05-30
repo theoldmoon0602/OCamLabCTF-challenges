@@ -1,0 +1,7 @@
+version: '3'
+services:
+  sqli_to:
+    build: .
+    restart: always
+    ports:
+      - ${PORT:-8004}:80

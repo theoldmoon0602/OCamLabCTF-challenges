@@ -1,0 +1,1 @@
+OCamLabCTF{sm4ll_sqli_l34ds_4_bi9_s3cur1ty_issu3}
