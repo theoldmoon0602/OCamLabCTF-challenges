@@ -1,7 +1,7 @@
 version: '3'
 services:
   online_editor:
-    image: php:7.3-apache
+    build: .
     restart: always
     ports:
-      - ${PORT:8003}:80
+      - ${PORT:-8003}:80
