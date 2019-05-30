@@ -4,6 +4,4 @@ services:
     image: php:7.3-apache
     restart: always
     ports:
-      - ${PORT}:80
-    volumes:
-      - ./challenge/:/var/www/html/
+      - ${PORT:8003}:80
