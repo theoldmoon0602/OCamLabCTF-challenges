@@ -67,6 +67,16 @@ challenges:
     base_score: 1000
     completed: true
     port: 8004
+  "Remember it":
+    category: web
+    flag: "OCamLabCTF{php_0bj3ct_inj3cti0n_thr0u9h_ins3cur3_d3s3ria1izati0n}"
+    description: '<a href="http://{{host}}:{{port}}/" target="_blank">http://{{host}}:{{port}}/</a>'
+    author: theoldmoon0602
+    testers: []
+    difficulty: medium
+    base_score: 1000
+    completed: true
+    port: 8005
   "Weak Crackme":
     category: reversing
     flag: "OCamLabCTF{str1ngs_1s_us3ful_t00l_4lw4ys}"
