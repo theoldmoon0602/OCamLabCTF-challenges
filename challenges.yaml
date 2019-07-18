@@ -82,6 +82,13 @@ challenges:
     author: theoldmoon0602
     difficulty: easy
     base_score: 1000
+  "Crackme":
+    tags: [reversing]
+    flag: "OCamLabCTF{read_assembly}"
+    description: read and rev
+    author: theoldmoon0602
+    difficulty: easy
+    base_score: 1000
   "One Time Two Time":
     tags: [crypto]
     flag: "OCamLabCTF{0n3_t1m3_p4d_4nd_kn0wn_pl41nt3xt_1s_typ1c4l}"
