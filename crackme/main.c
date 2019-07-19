@@ -30,12 +30,7 @@ int main(int argc, char** argv) {
         argv[1][i+1] == argv[1][i+2] &&
         argv[1][i] < argv[1][i+3] &&
         argv[1][i] + 4 == argv[1][i+3] &&
-        argv[1][i] + argv[1][i+1] + argv[1][i+2] +argv[1][i+3] == 428)) {
-        printf("%d\n", argv[1][i] < argv[1][i+1]);
-        printf("%d\n", argv[1][i+1] == argv[1][i+2]);
-        printf("%d\n", argv[1][i] > argv[1][i+3]);
-        printf("%d\n", argv[1][i] + 4 == argv[1][i+3]);
-        printf("%d\n", argv[1][i] + argv[1][i+1] + argv[1][i+2] +argv[1][i+3] == 428);
+        argv[1][i] * argv[1][i+1] * argv[1][i+2] * argv[1][i+3] == 129565325)) {
         printf("BAD3\n");
         return 0;
     }
